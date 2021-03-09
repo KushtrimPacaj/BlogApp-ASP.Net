@@ -7,13 +7,13 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" runat="server" href="~/">BlogApp</a>
+                    <a class="navbar-brand"  id="HomeTitle" runat="server" href="~/">BlogApp</a>
                 </div>
                 <div class="navbar-collapse collapse">
                     <ul class="nav navbar-nav">
-                        <li><a runat="server" href="~/">Home</a></li>
-                        <li><a runat="server" href="~/About">About</a></li>
-                        <li><a runat="server" href="~/Contact">Contact</a></li>
+                        <li><a runat="server" id="Home" href="~/">Home</a></li>
+                        <li><a runat="server" id="About" href="~/About">About</a></li>
+                        <li><a runat="server" id="Contact" href="~/Contact">Contact</a></li>
                     </ul>
                 </div>
             </div>
