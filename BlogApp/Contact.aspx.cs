@@ -25,7 +25,6 @@ namespace BlogApp
         protected void submitBtn_Click(object sender, EventArgs e)
         {
             SqlConnection con = new SqlConnection(connectionString);
-
             con.Open();
 
             SqlCommand cmd = new SqlCommand("insert into ContactData values( @name, @email,@content)", con);

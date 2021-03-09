@@ -1,0 +1,36 @@
+﻿/**
+ * GRIDVIEW STYLES
+**/
+.gridview {
+    font-family: "arial";
+    width: 100%;
+    font-size: small;
+}
+
+.gridview th {
+    background: #b7b3b3;
+    padding: 5px;
+    color: #000000;
+    font: bold large "arial";
+}
+
+ 
+.gridview th a:hover {
+    text-decoration: underline;
+}
+
+.gridview td {
+    font: small "arial";
+    padding: 4px;
+    height: 60px;
+}
+
+.gridview_first {
+    width: 10%;
+}
+.gridview_second {
+    width: 40%;
+}
+.gridview_third {
+    width: 50%;
+}
