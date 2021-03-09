@@ -7,20 +7,21 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-
 namespace BlogApp
 {
+
+
     public partial class SiteMaster
     {
 
         /// <summary>
-        /// HeadContent control.
+        /// header control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.ContentPlaceHolder HeadContent;
+        protected global::BlogApp.WebUserControl1 header;
 
         /// <summary>
         /// MainContent control.
