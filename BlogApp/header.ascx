@@ -14,6 +14,7 @@
                         <li><a runat="server" id="Home" href="~/">Home</a></li>
                         <li><a runat="server" id="About" href="~/About">About</a></li>
                         <li><a runat="server" id="Contact" href="~/Contact">Contact</a></li>
+                        <li><a runat="server" id="CreateBlog" href="~/CreateBlog">Create new blog!</a></li>
                     </ul>
                 </div>
             </div>

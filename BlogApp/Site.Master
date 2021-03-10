@@ -49,7 +49,8 @@
             </asp:ContentPlaceHolder>
             <hr />
             <footer>
-                <p>&copy; <%: DateTime.Now.Year %> - This is Kushtrim Pacaj's tech blog</p>
+                <p>&copy; <%: DateTime.Now.Year %> - This is Kushtrim Pacaj's tech blog   <asp:Button runat="server" CausesValidation="false" ID="logoutBtn" Visible="true" Text="Logout" /></p>
+                
             </footer>
         </div>
 

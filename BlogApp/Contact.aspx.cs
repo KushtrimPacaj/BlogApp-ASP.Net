@@ -24,6 +24,8 @@ namespace BlogApp
     
         protected void submitBtn_Click(object sender, EventArgs e)
         {
+            System.Diagnostics.Debug.WriteLine("[Contact] submitBtn_Click");
+
             SqlConnection con = new SqlConnection(connectionString);
             con.Open();
 

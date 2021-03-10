@@ -11,52 +11,61 @@ namespace BlogApp
 {
 
 
-    public partial class WebUserControl1
+    public partial class login
     {
 
         /// <summary>
-        /// HomeTitle control.
+        /// txtUserName control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlAnchor HomeTitle;
+        protected global::System.Web.UI.HtmlControls.HtmlInputText txtUserName;
 
         /// <summary>
-        /// Home control.
+        /// vUserName control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlAnchor Home;
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator vUserName;
 
         /// <summary>
-        /// About control.
+        /// txtUserPass control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlAnchor About;
+        protected global::System.Web.UI.HtmlControls.HtmlInputPassword txtUserPass;
 
         /// <summary>
-        /// Contact control.
+        /// vUserPass control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlAnchor Contact;
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator vUserPass;
 
         /// <summary>
-        /// CreateBlog control.
+        /// cmdLogin control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlAnchor CreateBlog;
+        protected global::System.Web.UI.WebControls.Button cmdLogin;
+
+        /// <summary>
+        /// lblMsg control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblMsg;
     }
 }
