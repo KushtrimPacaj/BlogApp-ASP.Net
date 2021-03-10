@@ -3,7 +3,7 @@
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
     <br /><br />
  <div>    
-    <asp:TextBox ID="searchText" runat="server" ToolTip="Search blogs"></asp:TextBox>   <asp:Button ID="searchBtn" runat="server" Text="Search" onclick="searchBtn_Click" />  
+    <asp:TextBox ID="searchText" runat="server" ToolTip="Search blogs" placeholder="Search by title"></asp:TextBox>   <asp:Button ID="searchBtn" runat="server" Text="Search" onclick="searchBtn_Click" />  
      <br />
     <asp:Label ID="nothingFoundLabel" runat="server" ForeColor="Red" Text="No blogs found" Visible="false"></asp:Label>  
 

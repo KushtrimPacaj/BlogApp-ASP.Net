@@ -2,7 +2,7 @@
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
     <h2><%: Title %>.</h2>
-    <h4>Email: :<a href="mailto:kushtrimpacaj@gmail.com">kushtrimpacaj@gmail.com</a></h4>
+    <h4>Email: <a href="mailto:kushtrimpacaj@gmail.com">kushtrimpacaj@gmail.com</a></h4>
 
 
 
