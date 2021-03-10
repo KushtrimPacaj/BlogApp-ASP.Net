@@ -10,6 +10,7 @@
      <br />     <br />
 
     <asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="False"   CssClass="gridview"   AlternatingRowStyle-CssClass="even"
+        OnRowDataBound = "OnRowDataBound" OnSelectedIndexChanged = "OnSelectedIndexChanged" DataKeyNames="id"
         AllowPaging="true" CellPadding="80" CellSpacing="10">  
         <Columns>
            <asp:BoundField DataField="id" HeaderText=" " ItemStyle-CssClass="gridview_first"/>

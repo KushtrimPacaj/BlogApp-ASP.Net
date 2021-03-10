@@ -16,7 +16,10 @@ namespace BlogApp
 
         protected void Page_Load(object sender, EventArgs e)
         {
-            loadBlogs();
+            if (!Page.IsPostBack)
+            {
+                loadBlogs();
+            }
         }
 
         private void loadBlogs()
@@ -36,8 +39,30 @@ namespace BlogApp
             con.Close();
         }
 
+        protected void OnRowDataBound(object sender, System.Web.UI.WebControls.GridViewRowEventArgs e)
+        {
+            if (e.Row.RowType == DataControlRowType.DataRow)
+            {
+                e.Row.Attributes["onclick"] = Page.ClientScript.GetPostBackClientHyperlink(GridView1, "Select$" + e.Row.RowIndex);
+                e.Row.ToolTip = "Click to select this row.";
+                e.Row.Attributes.Add("onmouseover", "this.style.cursor='pointer'");
+
+            }
+
+
+        }
+
+        protected void OnSelectedIndexChanged(object sender, EventArgs e)
+        {
+            int selectedRow = GridView1.SelectedIndex;
+            int selectedBlogID = Convert.ToInt32(GridView1.DataKeys[selectedRow].Value);
+
+            Response.Redirect("ViewBlog.aspx?blog_id=" + selectedBlogID);
+        }
+
         protected void searchBtn_Click(object sender, EventArgs e)
         {
+            loadBlogs();
 
         }
     }
