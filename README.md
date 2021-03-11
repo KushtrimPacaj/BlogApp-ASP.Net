@@ -10,4 +10,4 @@ The web app has:
 4. Header and Master Page.
 etc.
 
-Its 
+It's intentionally quite simple, only meant to showcase some framework/language features.
